@@ -1,9 +1,11 @@
-import { Address } from './address';
-import { Photo } from './photo';
-
 public class User {
     private Date birthdate;
     private Number size;
     private Adress adress;
-    private Photo[] photo;
+}
+ public User(Date birthdate , Number size, Address address) {
+        this.birthdate = birthdate; 
+        this.size = size; 
+        this.address = address; 
+    }
 }
